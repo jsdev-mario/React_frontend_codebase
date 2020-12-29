@@ -1,0 +1,37 @@
+@import '../../../../styles/vars';
+
+.signin {
+	display: flex;
+	flex-direction: row;
+	height: calc(100vh - 40px);
+	align-items: center;
+	@media only screen and (max-width: 750px) {
+		flex-direction: column;
+		padding: 0 20px
+	}
+	&__photo{
+		flex-grow: 1;
+		max-width: 50%;
+		>svg{
+			width: 100%;
+		}
+		@media only screen and (max-width: 750px) {
+			max-height: 50%;
+			max-width: 100% !important;
+			>svg{
+				height: 100%;
+			}	
+		}
+	}
+	&__content{
+		flex-grow: 1;
+		text-align: center;
+		&__title{
+			color: $primary-blue;
+			margin-bottom: 3rem;
+		}
+		&__btn{
+			width: 300px !important;
+		}
+	}
+}
