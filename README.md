@@ -28,6 +28,7 @@ Your app is ready to be deployed!
 # Features
 - Authorization Code Flow of Spotify in the React front end. 
 - Separated the UI and API parts using Redux/Saga/Axios.
+- Http error handling feature.
 - Animated loading skeletons using the "react-loading-skeleton" library.
 - Implement a Dark Mode using "styled-components" libraray
 
