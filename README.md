@@ -1,3 +1,6 @@
+# React Front End Code Base
+Simple Spotify web application
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -22,7 +25,11 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-
+# Features
+- Authorization Code Flow of Spotify in the React front end. 
+- Separated the UI and API parts using Redux/Saga/Axios.
+- Animated loading skeletons using the "react-loading-skeleton" library.
+- Implement a Dark Mode using "styled-components" libraray
 
 
 # Example
