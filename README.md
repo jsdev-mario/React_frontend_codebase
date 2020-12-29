@@ -34,5 +34,6 @@ Your app is ready to be deployed!
 
 
 # Example
-![screenshot-desktop](screenshot-desktop.png)
+![screenshot-desktop-light](screenshot-desktop-light.png)
+![screenshot-desktop-dark](screenshot-desktop-dark.png)
 ![screenshot-mobile](screenshot-mobile.png)
