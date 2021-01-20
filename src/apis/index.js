@@ -34,7 +34,7 @@ axios.interceptors.response.use(function (response) {
 });
 
 
-export const getUser = async (params) => {
+export const getUser = (params) => {
 
 	return axios.get(`${API_URL.GET_USER}`, { params: params })
 		.then(data => data.data)
@@ -42,7 +42,7 @@ export const getUser = async (params) => {
 };
 
 
-export const searchNewReleases = async (params) => {
+export const searchNewReleases = (params) => {
 
 	return axios.get(`${API_URL.SEARCH_NEWRELEASES}`, { params: params })
 		.then(data => data.data)
@@ -50,7 +50,7 @@ export const searchNewReleases = async (params) => {
 };
 
 
-export const searchPlaylists = async (params) => {
+export const searchPlaylists = (params) => {
 
 	return axios.get(`${API_URL.SEARCH_PLAYLISTS}`, { params: params })
 		.then(data => data.data)
@@ -58,7 +58,7 @@ export const searchPlaylists = async (params) => {
 };
 
 
-export const searchCategories = async (params) => {
+export const searchCategories = (params) => {
 
 	return axios.get(`${API_URL.SEARCH_CATEGORIES}`, { params: params })
 		.then(data => data.data)
